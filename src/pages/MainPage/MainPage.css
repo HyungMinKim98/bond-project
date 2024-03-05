@@ -1,0 +1,27 @@
+html body {
+  margin: 0 !important;
+  font-family: Arial, sans-serif !important;
+  background-color: #000 !important; /* Black background */
+  color: #fff !important; /* White text */
+}
+
+html body .navbar {
+  background-color: #000 !important; /* Black background */
+  color: white !important;
+  padding: 10px 20px !important;
+}
+
+html body .navbar a {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 10px 15px !important;
+  display: inline-block !important;
+}
+
+html body .dashboard-container .card {
+  background-color: #333 !important; /* Darker background for the card */
+  color: #fff !important; /* White text for the card */
+  border: 1px solid #444 !important; /* Slightly lighter border for the card */
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+}

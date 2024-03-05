@@ -1,0 +1,24 @@
+[
+  {
+    "userType": "investor",
+    "investments": [
+      { "type": "Bond A", "percentage": 40, "count": 5 },
+      { "type": "Bond B", "percentage": 60, "count": 7 }
+    ],
+    "annualReturn": 5.5,
+    "liquidAssets": 10000
+  },
+  {
+    "userType": "debtor",
+    "dueDate": "2024-12-31",
+    "annualRevenue": 50000,
+    "accountDetails": "123-456-789",
+    "address": "123 Main St, City, Country",
+    "phone": "123-456-7890",
+    "name": "John Doe",
+    "mobile": "098-765-4321",
+    "taxHistory": "None",
+    "cardUsage": "Minimal",
+    "creditScore": 750
+  }
+]
