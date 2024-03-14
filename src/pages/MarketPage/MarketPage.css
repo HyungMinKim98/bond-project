@@ -1,24 +1,27 @@
 .chart-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  padding: 0 5%;
+  background-color: #2c3e50; /* 어두운 테마의 배경색으로 변경 */
+  color: #ecf0f1; /* 밝은 글자색으로 변경 */
+  max-width: 1200px;
+}
+
+.chart, .info-section {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
   margin: 20px 0;
-  background-color: #333; /* Dark background for contrast */
-  color: #fff; /* White text for visibility */
-}
-
-.chart {
-  flex-basis: calc(50% - 40px);
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  margin: 20px;
   padding: 20px;
-  background-color: #fff; 
+  background-color: #34495e; /* 차트 및 정보 섹션의 배경색 변경 */
   border-radius: 8px;
+  color: #ecf0f1; /* 차트 및 정보 섹션의 글자색 변경 */
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
-  .chart {
-    flex-basis: 80%;
+  .chart, .info-section {
+    flex-basis: 100%; /* 모바일 화면에서 차트의 너비를 100%로 조정 */
   }
 }

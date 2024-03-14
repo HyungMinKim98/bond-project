@@ -1,0 +1,31 @@
+.community-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100px;
+}
+
+.post-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #404b58;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post {
+  background-color: #f9f9f9;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+}

@@ -1,9 +1,7 @@
 .user-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Align items to the start of the container */
-  margin-left: 20px;
   padding: 20px;
+  margin: auto; /* 중앙 정렬 */
+  max-width: 1200px; /* 최대 너비 설정 */
 }
 
 .user-cards-container {
@@ -13,17 +11,32 @@
 }
 
 .user-card {
-  flex: 1; /* Allows cards to grow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* 모바일 화면에서는 카드가 전체 너비를 차지하도록 설정 */
+  max-width: 300px; /* 최대 너비 설정 */
   margin: 10px;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #333; /* 어두운 배경색으로 조정 */
+  color: #fff; /* 텍스트 색상 설정 */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .user-cards-container {
-    flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .user-card {
+    width: calc(50% - 20px); /* 태블릿 및 데스크탑 화면에서는 두 카드가 한 줄에 표시 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .user-card {
+    width: calc(33.333% - 20px); /* 더 큰 화면에서는 한 줄에 세 카드가 표시 */
   }
 }

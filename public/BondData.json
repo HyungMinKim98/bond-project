@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Bond A",
+    "annualYield": "5",
+    "percentage": 60,
+    "remainingInvestmentPeriod": "2",
+    "openDate": "2023-01-01"
+  },
+  {
+    "id": 2,
+    "name": "Bond B",
+    "annualYield": "4.5",
+    "percentage": 60,
+    "remainingInvestmentPeriod": "3",
+    "openDate": "2023-02-01"
+  }
+]

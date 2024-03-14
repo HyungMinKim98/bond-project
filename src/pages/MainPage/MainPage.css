@@ -1,27 +1,67 @@
 html body {
-  margin: 0 !important;
-  font-family: Arial, sans-serif !important;
-  background-color: #000 !important; /* Black background */
-  color: #fff !important; /* White text */
+  margin: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+}
+.navbar {
+  background-color: #000; /* Black background */
+  color: white;
+  padding: 10px 20px;
 }
 
-html body .navbar {
-  background-color: #000 !important; /* Black background */
-  color: white !important;
-  padding: 10px 20px !important;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
 }
 
-html body .navbar a {
-  color: white !important;
-  text-decoration: none !important;
-  padding: 10px 15px !important;
-  display: inline-block !important;
+.dashboard-container {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px;
 }
 
-html body .dashboard-container .card {
-  background-color: #333 !important; /* Darker background for the card */
-  color: #fff !important; /* White text for the card */
-  border: 1px solid #444 !important; /* Slightly lighter border for the card */
-  padding: 20px !important;
-  margin-bottom: 20px !important;
+.dashboard-container .card {
+  margin-left: auto; /* Centers the card and provides equal left and right margins */
+  margin-right: auto; /* Adjust this to control the card width indirectly by changing the left and right margins */
+  max-width: 90%; /* Adjust the maximum width of the cards */
+  background-color: #333; /* 카드 배경색을 어둡게 조정 */
+  color: #fff; /* 카드 내 텍스트 색상을 밝게 조정 */
+  box-shadow: 
+  0 4px 8px rgba(0, 0, 0, 0.5), /* 어두운 쉐도우 추가 */
+  0 12px 24px rgba(0, 0, 0, 0.5); /* 쉐도우의 범위와 흐림 효과 증가 */
+  border: 1px solid #fff; /* 카드 테두리 색상을 어두운 배경에 맞게 조정 */
+  border-radius: 8px; /* 카드 모서리 둥글게 처리 */
+  padding: 20px; /* 내부 여백 조정 */
+
+}
+  
+
+.card-img-top {
+  width: 100%; /* Makes image responsive */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Styles for hover effect on links */
+.nav-link:hover {
+  font-weight: bold;
+}
+
+/* Utility class for positioning elements to the right */
+.mb-3 {
+  position: absolute;
+  right: 0;
+}
+
+/* Highlight active navigation link */
+.active {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container .card {
+    margin: 20px 10px; /* Provides smaller margins for smaller devices */
+    max-width: 95%; /* Allows cards to use more width on smaller screens */
+  }
 }

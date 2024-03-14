@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1rem; /* 예시 값입니다. */
+  font-weight: 400; /* 예시 값입니다. */
+  line-height: 1.5; /* 예시 값입니다. */
+  color: #212529; /* 예시 값입니다. */
+  text-align: left; /* 예시 값입니다. */
+  background-color: #ffffff; /* 예시 값입니다. */
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }

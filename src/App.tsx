@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import AboutPage from './pages/AboutPage/index';
 import MarketPage from './pages/MarketPage/index';
 import UserPage from './pages/UserPage/index';
+import CommunityPage from './pages/CommunityPage';
 
 const Layout = () => {
   return(
@@ -32,6 +33,7 @@ const App = () => {
           <Route path='about' element= {<AboutPage />} />
           <Route path='market' element= {<MarketPage />} />
           <Route path='user' element= {<UserPage />} />
+          <Route path='community' element= {<CommunityPage />} />
 
         </Route>
       </Routes>

@@ -1,0 +1,26 @@
+.nav-link {
+  padding: 0 10px; /* Adjust the padding as needed */
+  font-size: 0.9em; /* Reduce the font size; adjust as needed */
+
+}
+
+.nav-link:hover {
+  font-weight: bold; /* 마우스 호버 시 볼드 처리 */
+}
+
+.nav-link:click {
+  font-weight: bold; /* 마우스 클릭 시 볼드 처리 */
+}
+
+.mb-3 {
+  position: absolute;
+  right: 0;
+}
+.active {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 1.5em; /* Adjust based on your preference */
+  }
+}
